@@ -1,0 +1,7 @@
+1. No validations on all fields except Name and Email fields (User can place order by enetring only name and pohone)
+2. User can enter the string value in Quantity field.
+3. Quantity field can accept the negative values.(User can place order by entering -1 quantity)
+4. "Toppings 1" and "Toppings 2" dropdown fields are not clear after clicking on the reset button.
+5. Displayed "NAN" when user enters the Invalid Quantity. (E.g ABCD or /*+%*&^)
+6. User can select both payment options at a time.
+

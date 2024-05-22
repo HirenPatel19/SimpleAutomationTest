@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Pizza Test]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="Verify logo presence(failed)">
+    <classes>
+      <class name="com.sample.tests.NegativeTest">
+        <methods>
+          <include name="checkresetbtn"/>
+          <include name="checkMissingPhoneNum"/>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.sample.tests.NegativeTest -->
+    </classes>
+  </test> <!-- Verify logo presence(failed) -->
+</suite> <!-- Failed suite [Pizza Test] -->
